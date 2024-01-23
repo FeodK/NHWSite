@@ -1,13 +1,20 @@
 @import url("https://fonts.cdnfonts.com/css/gilroy-bold");
 @import url("https://fonts.cdnfonts.com/css/gilroy-Medium");
 
+* {
+  padding: 0;
+  margin: 0;
+}
+
 a {
   text-decoration: none;
 }
+
 .center {
-  padding-left: calc(50% - 960px);
-  padding-right: calc(50% - 960px);
+  padding-left: calc(50% - 587px);
+  padding-right: calc(50% - 587px);
 }
+
 .first_page {
   background-color: white;
 }
@@ -15,7 +22,7 @@ a {
   padding-top: 40px;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   flex-wrap: wrap;
 }
 .logo {
@@ -52,9 +59,9 @@ a {
   padding-top: 84px;
   display: flex;
   flex-direction: row-reverse;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-between;
   gap: 41px;
+  align-items: flex-start;
 }
 .info__title {
   width: 522px;
@@ -117,9 +124,7 @@ a {
   padding-bottom: 96px;
   padding-top: 97px;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
   gap: 48px;
 }
-
